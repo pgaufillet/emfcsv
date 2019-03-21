@@ -1,0 +1,10 @@
+* done - Verify map attributes are correctly saved/loaded
+* done - Fix eObjectIDMap when a referenced IDAttribute has changed 
+* done - Optimize the saving and loading of IDAttributes.
+* done - Solve Sirius VP description loading issue (fragment with multiple '/')
+* Comment and clean up code.
+* Use nsPrefix when saving/loading instead or nsURI.
+* done - Removes dependency to guava.
+* Plug-inize Apache Commons CSV
+* Implements Diagnostician.
+* Manages configuration options.

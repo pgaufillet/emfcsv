@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CSV Resource for EMF
+Bundle-SymbolicName: net.emf.csv;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Automatic-Module-Name: net.emf.csv
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.emf,
+ org.eclipse.emf.common,
+ org.eclipse.emf.ecore
+Bundle-ClassPath: lib/commons-csv-1.6.jar,
+ .
+Export-Package: net.emf.csv
